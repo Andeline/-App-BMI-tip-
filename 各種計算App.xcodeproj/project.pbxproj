@@ -13,6 +13,9 @@
 		575D88E7263FC4340070913A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575D88E5263FC4340070913A /* Main.storyboard */; };
 		575D88E9263FC4370070913A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575D88E8263FC4370070913A /* Assets.xcassets */; };
 		575D88EC263FC4370070913A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575D88EA263FC4370070913A /* LaunchScreen.storyboard */; };
+		575D88F5263FC4940070913A /* BMI calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D88F4263FC4940070913A /* BMI calculate.swift */; };
+		575D88FA263FC5950070913A /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 575D88F9263FC5950070913A /* jf-openhuninn-1.1.ttf */; };
+		575D88FD263FE4070070913A /* tip calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D88FC263FE4070070913A /* tip calculate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		575D88E8263FC4370070913A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		575D88EB263FC4370070913A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		575D88ED263FC4370070913A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575D88F4263FC4940070913A /* BMI calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BMI calculate.swift"; sourceTree = "<group>"; };
+		575D88F9263FC5950070913A /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		575D88FC263FE4070070913A /* tip calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tip calculate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		575D88DE263FC4340070913A /* 各種計算App */ = {
 			isa = PBXGroup;
 			children = (
+				575D88F9263FC5950070913A /* jf-openhuninn-1.1.ttf */,
 				575D88DF263FC4340070913A /* AppDelegate.swift */,
 				575D88E1263FC4340070913A /* SceneDelegate.swift */,
 				575D88E3263FC4340070913A /* ViewController.swift */,
 				575D88E5263FC4340070913A /* Main.storyboard */,
+				575D88FC263FE4070070913A /* tip calculate.swift */,
+				575D88F4263FC4940070913A /* BMI calculate.swift */,
 				575D88E8263FC4370070913A /* Assets.xcassets */,
 				575D88EA263FC4370070913A /* LaunchScreen.storyboard */,
 				575D88ED263FC4370070913A /* Info.plist */,
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				575D88EC263FC4370070913A /* LaunchScreen.storyboard in Resources */,
+				575D88FA263FC5950070913A /* jf-openhuninn-1.1.ttf in Resources */,
 				575D88E9263FC4370070913A /* Assets.xcassets in Resources */,
 				575D88E7263FC4340070913A /* Main.storyboard in Resources */,
 			);
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575D88FD263FE4070070913A /* tip calculate.swift in Sources */,
+				575D88F5263FC4940070913A /* BMI calculate.swift in Sources */,
 				575D88E4263FC4340070913A /* ViewController.swift in Sources */,
 				575D88E0263FC4340070913A /* AppDelegate.swift in Sources */,
 				575D88E2263FC4340070913A /* SceneDelegate.swift in Sources */,
